@@ -24,11 +24,13 @@
         ```
         sudo apt-get install curl openssh-server ca-certificates postfix
         ```
+
     b. 添加GitLab仓库,并安装到服务器上
         ```
         curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
         sudo apt-get install gitlab-ce
         ```
+
     c. 启动GitLab
         ```
         sudo gitlab-ctl reconfigure
@@ -37,7 +39,6 @@
 
 ## 邮箱配置
 配置SMTP发送邮件配置，使用163邮箱。
- 
         ```
         $ sudo vi /etc/gitlab/gitlab.rb
 
