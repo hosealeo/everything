@@ -39,7 +39,7 @@
 
 ## 邮箱配置
 配置SMTP发送邮件配置，使用163邮箱。
-        ```
+
         $ sudo vi /etc/gitlab/gitlab.rb
 
         #Sending application email via SMTP
@@ -55,7 +55,7 @@
         ##修改gitlab配置的发信人
         gitlab_rails['gitlab_email_from'] = "xxuser@163.com"
         user["git_user_email"] = "xxuser@163.com"
-        ```
+
 
 ## 域名配置
 ### 配置
